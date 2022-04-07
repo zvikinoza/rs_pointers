@@ -4,6 +4,7 @@ pub struct Cell<T> {
     value: UnsafeCell<T>
 }
 
+
 // implemented by UnsafeCell.
 // syntax is only available in nightly mode.
 // impl <T> !Sync for Cell<T> {}
