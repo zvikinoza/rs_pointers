@@ -35,8 +35,3 @@ impl<T> Cell<T> {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use std::sync::Arc;
-    use super::Cell;
-}
